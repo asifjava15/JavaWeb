@@ -14,4 +14,14 @@
     <servlet-name>FirstServlet</servlet-name>
     <url-pattern>/First</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>GetEmployees</display-name>
+    <servlet-name>GetEmployees</servlet-name>
+    <servlet-class>com.training.j2ee.GetEmployees</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetEmployees</servlet-name>
+    <url-pattern>/getEmployees</url-pattern>
+  </servlet-mapping>
 </web-app>
