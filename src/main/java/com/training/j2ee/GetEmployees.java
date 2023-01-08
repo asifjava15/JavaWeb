@@ -58,7 +58,7 @@ public class GetEmployees extends HttpServlet {
 				employeesList.add(employee);
 			}
 			request.setAttribute("employees", employeesList);
-			RequestDispatcher requestDispatcher= request.getRequestDispatcher("results.jsp");
+			RequestDispatcher requestDispatcher= request.getRequestDispatcher("main.jsp");
 			requestDispatcher.forward(request, response);
 		} /*
 			 * catch (ClassNotFoundException e) {

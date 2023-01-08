@@ -24,4 +24,24 @@
     <servlet-name>GetEmployees</servlet-name>
     <url-pattern>/getEmployees</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SourceServlet</display-name>
+    <servlet-name>SourceServlet</servlet-name>
+    <servlet-class>com.training.j2ee.SourceServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SourceServlet</servlet-name>
+    <url-pattern>/source</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DestinationServlet</display-name>
+    <servlet-name>DestinationServlet</servlet-name>
+    <servlet-class>com.training.j2ee.DestinationServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DestinationServlet</servlet-name>
+    <url-pattern>/destination</url-pattern>
+  </servlet-mapping>
 </web-app>
